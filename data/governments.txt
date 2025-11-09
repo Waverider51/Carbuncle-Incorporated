@@ -1,7 +1,7 @@
 government "Carbuncle Inc."
 	swizzle 9
 	color 0 0 0
-	"player reputation" 10
+	"player reputation" 20
 	"crew attack" 9999
 	"crew defense" 99999
 	"attitude toward"
