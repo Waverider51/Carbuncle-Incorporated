@@ -1,8 +1,9 @@
 
 #### HUMAN ####
 
-shipyard "Southbound Basics"
+shipyard "Carbuncle Basics"
 	"Harrier"
+	"Stentor"
 
 ship "Harrier"
 	sprite "ship/harrier"
@@ -52,4 +53,45 @@ ship "Harrier"
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
 	description "The Harrier is a ship that can fulfil most of a captain's needs. As well as acting as a freighter, the Harrier can be used as a mining ship. It can also boast 4 powerful Particle Cannons, making it a sort of glorified Quicksilver. However, despite its size, the Harrier lacks any turrets. In order to counteract this it has been fitted with generous amounts of engine space."
+
+ship "Stentor"
+	sprite "ship/stentor"
+	thumbnail "thumbnail/stentor"
+	attributes
+		category "Interceptor"
+		"cost" 600000
+		"shields" 3000
+		"hull" 900
+		"required crew" 1
+		"bunks" 3
+		"mass" 105
+		"drag" 1.8
+		"heat dissipation" .79
+		"fuel capacity" 900
+		"cargo space" 40
+		"outfit space" 210
+		"weapon capacity" 50
+		"engine capacity" 70
+		weapon
+			"blast radius" 24
+			"shield damage" 240
+			"hull damage" 120
+			"hit force" 360
+	outfits	
+		"Meteor Missile Launcher" 2
+	
+		"S3 Thermionic"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
 		
+		"Greyhound Plasma Thruster"
+		"Greyhound Plasma Steering"
+		"Hyperdrive"
+	
+	gun -34 -2 "Meteor Missile Launcher"
+	gun 33.5 -2 "Meteor Missile Launcher"
+	engine 0 45.5
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	description "The Stentor is Carbuncle Shipyards' interceptor. It has ample cargo capacity, allowing it to be used as a fast freighter."
