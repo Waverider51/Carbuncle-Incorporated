@@ -44,6 +44,7 @@ system Albaldah
 		offset 1
 
 planet "Carbuncle Inc."
+	landscape land/carbuncle
 	description "This station is the home of Carbuncle Incorporated. Though the station is modelled closely after the beloved Carbuncle Refinery, the interior is anything but. Large docking bays that can accomodate even the largest ships, giant visitor seating halls, and best of all, a gift shop. "
 	spaceport "The spaceport is full of captains that want to buy ships as well as some captains that hope they can one day have enough money to get one of Carbuncle's ships. "
 	government "Carbuncle Inc."
