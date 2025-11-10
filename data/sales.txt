@@ -1,6 +1,8 @@
 shipyard "Carbuncle Basics"
 	"Harrier"
 	"Stentor"
+shipyard "Carbuncle Advanced"
+	"Star Commander"
 
 planet "Carbuncle Inc."
 	shipyard "Tarazed Basics"
@@ -12,4 +14,3 @@ planet "Carbuncle Inc."
 	outfitter "Basic Outfits" 
 	outfitter "Syndicate Advanced"
 	outfitter "Kraz Advanced"
-
