@@ -122,6 +122,7 @@ ship "Star Commander"
 			"hull damage" 200
 			"hit force" 500
 	outfits
+		"Heavy Anti-Missile Turret"
 		"NT-200 Nucleovoltaic"
 		"LP072a Battery Pack"
 		"D67-TM Shield Generator"
@@ -135,7 +136,7 @@ ship "Star Commander"
 	gun -18 -91
 	turret 26.5 1.5
 	turret -26.5 2
-	turret 0 31.5
+	turret 0 31.5 "Heavy Anti-Missile Turret"
 	engine -48 128
 	engine 48 130
 	explode "tiny explosion" 5
