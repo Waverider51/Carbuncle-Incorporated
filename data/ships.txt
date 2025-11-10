@@ -98,40 +98,39 @@ ship "Stentor"
 	explode "small explosion" 20
 	description "The Stentor is Carbuncle Shipyards' interceptor. It has ample cargo capacity, allowing it to be used as a fast freighter."
 
-	ship "Star Commander"
-		sprite "ship/star commander"
-		thumbnail "thumbnail/star commander"
-		attributes
-			category "Space Liner"
-			"cost" 6300000
-			"shields" 8000
-			"hull" 5200
-			"required crew" 20
-			"bunks" 300
-			"mass" 700
-			"drag" 4
-			"heat dissipation" .30
-			"fuel capacity" 1000
-			"cargo space" 30
-			"outfit space" 900
-			"weapon capacity" 600
-			"engine capacity" 400
-			weapon
-				"blast radius" 50
-				"shield damage" 300
-				"hull damage" 200
-				"hit force" 500
-		outfits
-			"NT-200 Nucleovoltaic"
-			"LP072a Battery Pack"
-
-			"D67-TM Shield Generator"
-			"Hyperdrive"
-			"Ramscoop"
-			"Small Radar Jammer"
-
-			"Orca Plasma Thruster"
-			"Orca Plasma Steering"
+ship "Star Commander"
+	sprite "ship/star commander"
+	thumbnail "thumbnail/star commander"
+	attributes
+		category "Space Liner"
+		"cost" 6300000
+		"shields" 8000
+		"hull" 5200
+		"required crew" 20
+		"bunks" 300
+		"mass" 700
+		"drag" 4
+		"heat dissipation" .30
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 250
+		weapon
+			"blast radius" 50
+			"shield damage" 300
+			"hull damage" 200
+			"hit force" 500
+	outfits
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Hyperdrive"
+		"Ramscoop"
+		"Large Radar Jammer"
+		"Tyrant Plasma Thruster"
+		"Orca Plasma Steering"
 	gun 18 -91
 	gun -18 -91
 	turret 26.5 1.5
@@ -145,3 +144,4 @@ ship "Stentor"
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
 	description "The Star Commander is Carbuncle's take on a space liner. It's aim is to be a heavily armed ship, still capable of transporting people in relative comfort. It has a massive amount of bunks, but only ample cargo space."
+
