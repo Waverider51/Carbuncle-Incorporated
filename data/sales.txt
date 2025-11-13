@@ -15,3 +15,12 @@ planet "Carbuncle Inc."
 	outfitter "Basic Outfits" 
 	outfitter "Syndicate Advanced"
 	outfitter "Kraz Advanced"
+
+
+### OMNIS ###
+
+shipyard "human plugin"
+	"Harrier"
+	"Phage"
+	"Star Commander"
+	"Stentor"
