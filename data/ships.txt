@@ -6,6 +6,7 @@ shipyard "Carbuncle Basics"
 	"Stentor"
 shipyard "Carbuncle Advanced"
 	"Star Commander"
+	"Phage"
 
 ship "Harrier"
 	sprite "ship/harrier"
@@ -145,4 +146,53 @@ ship "Star Commander"
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
 	description "The Star Commander is Carbuncle's take on a space liner. It's aim is to be a heavily armed ship, still capable of transporting people in relative comfort. It has a massive amount of bunks, but only ample cargo space."
+
+ship "Phage"
+	sprite "ship/phage"
+	thumbnail "thumbnail/phage"
+	attributes
+		category "Drone"
+		"cost" 5300000
+		"shields" 5000
+		"hull" 1000
+		"required crew" 0
+		"bunks" 0
+		"mass" 50
+		"drag" .87
+		"heat dissipation" .81
+		"outfit space" 250
+		"weapon capacity" 150
+		"engine capacity" 70
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+				
+		"Twin Blaster" 3
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 12
+
+		"NT-200 Nucleovoltaic"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"AR120 Reverse Thruster"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		
+	engine -5 32
+	engine 5 32
+	gun -52 -7.5 "Sidewinder Missile Pod"
+	gun -12 -36.5 "Twin Blaster"
+	gun 0 -45.5 "Twin Blaster"
+	gun 14 -37.5 "Twin Blaster"
+	gun 52 -9 "Sidewinder Missile Pod"
+	leak "flame" 60 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "When faced with the low amount of drones the Bulk Carrier could hold, Carbuncle toiled to make the deadliest drone ever seen. The Phage is that drone. With 5 gun ports, this little drone can pack quite the punch. It features the latest Carbuncle shield and hull technology, making it a fearsome ship to have by one's side. However, it comes with an high cost, making it a sort of premium product."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+
 
