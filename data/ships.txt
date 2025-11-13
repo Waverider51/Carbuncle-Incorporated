@@ -45,7 +45,7 @@ ship "Harrier"
 	gun 1 -72 "Plasma Cannon"
 	gun -12.5 2 "Heavy Laser"
 	gun -12.5 2 "Meteor Missile Launcher"
-	gun 13 1.5 "Heavy Laser
+	gun 13 1.5 "Heavy Laser"
 	gun 13 1.5 "Meteor Missile Launcher"
 	engine -35.5 84.5
 	engine 0.5 89

@@ -18,10 +18,10 @@ jobs:
         cd .\endless-sky
         mkdir plugins
         cd .\plugins
-        mkdir Jibauni
-    - uses: actions/checkout@v4
+        mkdir Carbuncle-Incorporated
+    - uses: actions/checkout@v5
       with:
-        path: '.\endless-sky\plugins\Jibauni'
+        path: '.\endless-sky\plugins\Carbuncle-Incorporated'
     - name: Parse Datafiles
       run: "'.\\endless-sky\\Endless Sky.exe' -p"
       shell: bash
