@@ -3,6 +3,7 @@ shipyard "Carbuncle Basics"
 	"Stentor"
 shipyard "Carbuncle Advanced"
 	"Star Commander"
+	"Phage"
 
 planet "Carbuncle Inc."
 	shipyard "Tarazed Basics"

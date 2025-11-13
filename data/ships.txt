@@ -6,6 +6,7 @@ shipyard "Carbuncle Basics"
 	"Stentor"
 shipyard "Carbuncle Advanced"
 	"Star Commander"
+	"Phage"
 
 ship "Harrier"
 	sprite "ship/harrier"
@@ -89,7 +90,7 @@ ship "Stentor"
 		"Greyhound Plasma Thruster"
 		"Greyhound Plasma Steering"
 		"Hyperdrive"
-	
+	gun 0.5 -45
 	gun -34 -2 "Meteor Missile Launcher"
 	gun 33.5 -2 "Meteor Missile Launcher"
 	engine 0 45.5
@@ -98,45 +99,45 @@ ship "Stentor"
 	explode "small explosion" 20
 	description "The Stentor is Carbuncle Shipyards' interceptor. It has ample cargo capacity, allowing it to be used as a fast freighter."
 
-	ship "Star Commander"
-		sprite "ship/star commander"
-		thumbnail "thumbnail/star commander"
-		attributes
-			category "Space Liner"
-			"cost" 6300000
-			"shields" 8000
-			"hull" 5200
-			"required crew" 20
-			"bunks" 300
-			"mass" 700
-			"drag" 4
-			"heat dissipation" .30
-			"fuel capacity" 1000
-			"cargo space" 30
-			"outfit space" 900
-			"weapon capacity" 600
-			"engine capacity" 400
-			weapon
-				"blast radius" 50
-				"shield damage" 300
-				"hull damage" 200
-				"hit force" 500
-		outfits
-			"NT-200 Nucleovoltaic"
-			"LP072a Battery Pack"
-
-			"D67-TM Shield Generator"
-			"Hyperdrive"
-			"Ramscoop"
-			"Small Radar Jammer"
-
-			"Orca Plasma Thruster"
-			"Orca Plasma Steering"
+ship "Star Commander"
+	sprite "ship/star commander"
+	thumbnail "thumbnail/star commander"
+	attributes
+		category "Space Liner"
+		"cost" 6300000
+		"shields" 8000
+		"hull" 5200
+		"required crew" 20
+		"bunks" 300
+		"mass" 700
+		"drag" 4
+		"heat dissipation" .30
+		"fuel capacity" 1000
+		"cargo space" 30
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 250
+		weapon
+			"blast radius" 50
+			"shield damage" 300
+			"hull damage" 200
+			"hit force" 500
+	outfits
+		"Heavy Anti-Missile Turret"
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D67-TM Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Hyperdrive"
+		"Ramscoop"
+		"Large Radar Jammer"
+		"Tyrant Plasma Thruster"
+		"Orca Plasma Steering"
 	gun 18 -91
 	gun -18 -91
 	turret 26.5 1.5
 	turret -26.5 2
-	turret 0 31.5
+	turret 0 31.5 "Heavy Anti-Missile Turret"
 	engine -48 128
 	engine 48 130
 	explode "tiny explosion" 5
@@ -145,3 +146,53 @@ ship "Stentor"
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
 	description "The Star Commander is Carbuncle's take on a space liner. It's aim is to be a heavily armed ship, still capable of transporting people in relative comfort. It has a massive amount of bunks, but only ample cargo space."
+
+ship "Phage"
+	sprite "ship/phage"
+	thumbnail "thumbnail/phage"
+	attributes
+		category "Drone"
+		"cost" 5300000
+		"shields" 5000
+		"hull" 1000
+		"required crew" 0
+		"bunks" 0
+		"mass" 50
+		"drag" .87
+		"heat dissipation" .81
+		"outfit space" 250
+		"weapon capacity" 150
+		"engine capacity" 70
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+				
+		"Twin Blaster" 3
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 12
+
+		"NT-200 Nucleovoltaic"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		
+		"AR120 Reverse Thruster"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		
+	engine -5 32
+	engine 5 32
+	gun -52 -7.5 "Sidewinder Missile Pod"
+	gun -12 -36.5 "Twin Blaster"
+	gun 0 -45.5 "Twin Blaster"
+	gun 14 -37.5 "Twin Blaster"
+	gun 52 -9 "Sidewinder Missile Pod"
+	leak "flame" 60 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Carbuncle has toiled for years to make the deadliest drone the galaxy has ever seen. The Phage is that drone. With 5 gun ports, this little drone can pack quite the punch. It features the latest Carbuncle shield and hull technology, making it a fearsome ship to have by one's side. However, it comes with an high cost, making it a sort of premium product."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+
+
