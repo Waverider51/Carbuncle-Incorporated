@@ -195,4 +195,122 @@ ship "Phage"
 	description "Carbuncle has toiled for years to make the deadliest drone the galaxy has ever seen. The Phage is that drone. With 5 gun ports, this little drone can pack quite the punch. It features the latest Carbuncle shield and hull technology, making it a fearsome ship to have by one's side. However, it comes with an high cost, making it a sort of premium product."
 	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
-
+ship "Lazarus Class"
+	sprite "ship/lazarus"
+	thumbnail "thumbnail/lazarus"
+	attributes
+		category "Superheavy"
+		"cost" 90000000
+		"shields" 55500
+		"hull" 20500
+		"required crew" 50
+		"bunks" 400
+		"mass" 2000
+		"drag" 35
+		"heat dissipation" .30
+		"fuel capacity" 500
+		"cargo space" 100
+		"outfit space" 1050
+		"weapon capacity" 500
+		"engine capacity" 180
+		weapon
+			"blast radius" 300
+			"shield damage" 4600
+			"hull damage" 2300
+			"hit force" 5900
+	outfits
+		"AR120 Reverse Thruster" 2
+		"Asteroid Scanner"
+		"Cargo Scanner"
+		"D94-YV Shield Generator" 2
+		"Fusion Reactor"
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret" 2
+		Hyperdrive
+		"KP-6 Photovoltaic Array" 2
+		"LP576a Battery Pack"
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"NT-200 Nucleovoltaic"
+		"Orca Plasma Steering"
+		"Orca Plasma Thruster"
+		"Outfit Scanner"
+		"Proton Turret" 2
+		"Quad Blaster Turret" 2
+		Ramscoop
+		"Scram Drive"
+		"Tactical Scanner"
+	turret 1.5 259.5 "Heavy Anti-Missile Turret"
+	turret 2 179.5 "Proton Turret"
+	turret 36.5 -282.5 "Heavy Anti-Missile Turret"
+	turret -31 -282 "Proton Turret"
+	turret -43 -60.5 "Quad Blaster Turret"
+	turret 48 -63 "Quad Blaster Turret"
+	turret 45.5 51.5 "Heavy Laser Turret"
+	turret -43 49.5 "Heavy Laser Turret"
+	engine -6.5 293.5
+	engine 5 293
+	engine 15.5 294
+	engine -26.5 243.5
+	engine 34 245
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch"
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	bay "Fighter" -1 -274.5
+		"launch effect" "scin launch" 
+	description "The Lazarus Class Superheavy is an ancient design. Partaking in the First and Second New Madras wars, the Lazarus Class is a tried and tested design. Being devised from a orbital defence station, it holds the most fighters anywhere in human space and has space for powerful weapons. Currently the Lazarus Class is used by Carbuncle Security Forces for anti-terrorism operations, keeping the Lazarus' reputation as a powerful killing machine.
