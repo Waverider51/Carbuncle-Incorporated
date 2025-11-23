@@ -4,6 +4,7 @@
 shipyard "Carbuncle Basics"
 	"Harrier"
 	"Stentor"
+	"Coleps"
 shipyard "Carbuncle Advanced"
 	"Star Commander"
 	"Phage"
