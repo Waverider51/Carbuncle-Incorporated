@@ -355,3 +355,65 @@ ship "Coleps"
 	description "To supplement the defence capabilities of the Lazarus Class, the Coleps was created as a powerful fighter. It has the ability to fire the deadly Dream Gun for large spans of time, allowing it to face off against targets much larger than itself."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
+
+ship "Trident"
+	sprite "ship/trident"
+	thumbnail "thumbnail/trident"
+	attributes
+		category "Medium Warship"
+		"cost" 10000000
+		"shields" 10000
+		"hull" 7000
+		"required crew" 5
+		"bunks" 25
+		"mass" 500
+		"drag" .80
+		"fuel capacity" 900
+		"heat dissipation" .50
+		"outfit space" 700
+		"weapon capacity" 400
+		"engine capacity" 180
+
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits 
+		"D94-YV Shield Generator"
+		"Dwarf Core"
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret" 2
+		Hyperdrive
+		"KP-6 Photovoltaic Array" 2
+		"LP144a Battery Pack"
+		"Particle Cannon" 2
+		"Plasma Cannon"
+		"Proton Gun" 2
+		"Proton Turret"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+
+	engine -14.5 84
+	engine 15.5 85
+	engine 0.5 118
+	gun -8.5 -112.5 "Proton Gun"
+	gun 9.5 -113 "Proton Gun"
+	gun 0.5 -119 "Plasma Cannon"
+	gun -12.5 -107.5 "Particle Cannon"
+	gun 13.5 -107.5 "Particle Cannon" 
+	turret 0.5 98.5 "Heavy Anti-Missile Turret"
+	turret 0.5 -61 "Proton Turret"
+	turret 0 -113 "Heavy Anti-Missile Turret"
+	turret -34.5 -20 "Heavy Laser Turret"
+	turret 34 -21 "Heavy Laser Turret"
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Trident is the next generation Medium Warship produced by Carbuncle Inc. Even if it is based on the Star Queen, with advanced scanning suites and a generous amounts of outfit and weapon space, this is one of the most advanced warships in human space."
+
