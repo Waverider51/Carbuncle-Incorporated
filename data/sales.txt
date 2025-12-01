@@ -6,6 +6,7 @@ shipyard "Carbuncle Advanced"
 	"Star Commander"
 	"Phage"
 	"Lazarus Class"
+	"Trident"
 outfitter "Carbuncle Advanced"	
 
 planet "Carbuncle Inc."
