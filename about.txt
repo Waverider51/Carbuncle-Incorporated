@@ -1,3 +1,3 @@
-A plugin which adds Carbuncle Inc., a company that makes mediocre ships.
+A plugin which adds Carbuncle Inc., a company that makes both mediocre and relatively powerful ships.
 Credits: NukeGuy
 Special thanks for Loymdaydaudd and Kassandra Haruki for testing the plugin as well as helping me fix all the bugs and issues I made.

@@ -1,42 +1,5 @@
 system Albaldah
-	object
-		sprite star/k5
-		distance 20.877
-		period 13.622
-		offset 180
-	object
-		sprite star/m8
-		distance 65.724
-		period 13.622
-	object
-		sprite planet/ice6
-		distance 261.435
-		period 71.452
-	object "New India"
-		sprite planet/ocean2
-		distance 517.075
-		period 198.745
-	object
-		sprite planet/tethys
-		distance 768.685
-		period 360.237
-	object
-		sprite planet/gas16-b
-		distance 1670.9
-		period 1154.49
-		object
-			sprite planet/lava1-b
-			distance 204
-			period 14.362
-	object
-		sprite planet/uranus-b
-		distance 3405.54
-		period 3359.27
-		object
-			sprite planet/luna
-			distance 235
-			period 14.534
-	object "Carbuncle Inc."
+	add object "Carbuncle Inc."
 		sprite planet/largebuncle
 			scale 0.5
 		distance 1148.117
@@ -45,8 +8,17 @@ system Albaldah
 
 planet "Carbuncle Inc."
 	landscape land/carbuncle
-	description "This station is the home of Carbuncle Incorporated. Though the station is modelled closely after the beloved Carbuncle Refinery, the interior is anything but. Large docking bays that can accomodate even the largest ships, giant visitor seating halls, and best of all, a gift shop. "
-	spaceport "The spaceport is full of captains that want to buy ships as well as some captains that hope they can one day have enough money to get one of Carbuncle's ships. "
+	description "This station is the home of Carbuncle Incorporated. Though the station is modelled closely after the beloved Carbuncle Refinery, the interior is anything but. Large docking bays that can accomodate even the largest ships, giant visitor seating halls, and best of all, a gift shop."
+	spaceport "The spaceport is full of captains that want to buy ships as well as some captains that hope they can one day have enough money to get one of Carbuncle's ships."
+	shipyard "Tarazed Basics"
+	shipyard "Syndicate Basics"
+	shipyard "Southbound Advanced"
+	shipyard "Carbuncle Basics"
+	shipyard "Carbuncle Advanced"
+	outfitter "Delta V Advanced"
+	outfitter "Basic Outfits"
+	outfitter "Syndicate Advanced"
+	outfitter "Kraz Advanced"
+	outfitter "Carbuncle Advanced"
 	government "Carbuncle Inc."
 	"required reputation" 40
-
