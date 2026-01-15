@@ -1,6 +1,6 @@
 name "Carbuncle Incorporated."
 about "A plugin which adds Carbuncle Inc., a company that makes both mediocre and relatively powerful ships."
 about "Credits: Nuke Guy"
-about "Special thanks for Loymdaydaudd and Kassandra Haruki for testing the plugin as well as helping me fix all the bugs and issues I made."
+about "Special thanks for Loymdayddaud and Kassandra Haruki for testing the plugin as well as helping me fix all the bugs and issues I made."
 authors
     "Nuke Guy"
