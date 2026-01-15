@@ -22,4 +22,3 @@ government "Carbuncle Inc."
 	"friendly disabled hail" "friendly disabled pug"
 	"hostile hail" "hostile deep"
 	"hostile disabled hail" "hostile deep"
-
